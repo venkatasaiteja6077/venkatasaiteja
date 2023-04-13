@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>BMI Calculator</title>
+		<link rel="stylesheet" href="bmi.css">
+	</head>
+	<body>
+		<div class="top">
+			<img  width="100%" height="10%" src="photo.jpg" alt="">
+		</div> <br> <br>
+		<div class="middle">
+			<h1>BMI Calculator</h1>
+			<form>
+		<label for="weight">Weight (kg):</label>
+		<input type="number" id="weight" placeholder="weight" required>
+		<br> <br> <br>
+		<label for="height">Height (cm):</label>
+		<input type="number" id="height" placeholder="height" required>
+		<br> <br> <br>
+		<button type="button" onclick="calculateBMI()">Calculate BMI</button>
+		<br> <br> <br>
+		<label for="result">Result:</label>
+		<input type="text" id="result" placeholder="result" readonly>
+	</form>
+</div> <br> <br>
+		<div class="bottom">
+			<img height="10%" width="100%" src="https://img.freepik.com/premium-vector/body-mass-index-man_206049-5143.jpg?w=900" alt="">
+		</div>
+
+ <script src="bmi.js">
+
+ </script>
+	</body>
+</html>
